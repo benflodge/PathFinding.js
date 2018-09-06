@@ -20,7 +20,7 @@ ThetaStarFinder.prototype.distance = function(startX, startY, endX, endY) {
     startX -= endX;
     startY -= endY;
     return Math.sqrt(startX * startX + startY * startY);
-}
+};
 
 ThetaStarFinder.prototype.lineOfSight = function(startX, startY, endX, endY, grid) {
     var sx, sy, f, s0, s1,
@@ -149,7 +149,7 @@ ThetaStarFinder.prototype.lineOfSight = function(startX, startY, endX, endY, gri
         }
     }
     return true;
-}
+};
 
 /**
  * Find and return the the path.
